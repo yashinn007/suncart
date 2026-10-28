@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { FaRegStar } from "react-icons/fa";
 
@@ -7,7 +8,13 @@ const ProductCard = ({ product }) => {
   return (
     <div className="card bg-base-100 shadow-sm">
       <figure className="relative w-full aspect-square ">
-        <Image src={image} alt={name} fill className="object-cover"></Image>
+        <Image
+          src={image}
+          alt={name}
+          sizes="50"
+          fill
+          className="object-cover"
+        ></Image>
       </figure>
       <div className="card-body">
         <h2 className="card-title text-sm lg:text-xl">{name}</h2>
@@ -21,7 +28,9 @@ const ProductCard = ({ product }) => {
             {rating}
           </span>
         </div>
-        <button className="btn mt-auto">View Details</button>
+        <Link href={`/productDetails/${product.id}`}>
+          <button className="btn w-full mt-auto">View Details</button>
+        </Link>
       </div>
     </div>
   );

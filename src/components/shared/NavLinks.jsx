@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Suspense } from "react";
 
-const NavLinks = ({ href, children }) => {
+const NavLinksContent = ({ href, children }) => {
   const pathname = usePathname();
 
   const isActive = href === pathname;
@@ -14,6 +15,14 @@ const NavLinks = ({ href, children }) => {
     >
       {children}
     </Link>
+  );
+};
+
+const NavLinks = ({ href, children }) => {
+  return (
+    <Suspense fallback={<Link href={href}>{children}</Link>}>
+      <NavLinksContent href={href}>{children}</NavLinksContent>
+    </Suspense>
   );
 };
 

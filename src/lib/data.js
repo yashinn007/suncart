@@ -4,3 +4,10 @@ export const getProductsData = async () => {
   const data = await res.json();
   return data;
 };
+
+// export const getProductDetails = async () => {
+
+//   const res = await fetch("https://suncart-three.vercel.app/data.json/1");
+//   const data = await res.json();
+//   return data;
+// };
