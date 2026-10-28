@@ -7,7 +7,7 @@
     "rating": 4.7,
     "stock": 10,
     "description": "Stylish UV protection sunglasses perfect for summer outings.",
-    "image": "https://i.postimg.cc/example1.png",
+    "image": "https://i.ibb.co.com/GvMyW0Zq/Sunglasses.jpg",
     "category": "Accessories"
   },
   {
@@ -18,7 +18,7 @@
     "rating": 4.6,
     "stock": 18,
     "description": "Lightweight floral dress made from breathable cotton for hot sunny days.",
-    "image": "https://i.postimg.cc/example2.png",
+    "image": "https://i.ibb.co.com/5WJWQFTL/Dress.webp",
     "category": "Clothing"
   },
   {
@@ -29,7 +29,7 @@
     "rating": 4.8,
     "stock": 40,
     "description": "Water-resistant broad spectrum sunscreen that protects skin from UVA and UVB rays.",
-    "image": "https://i.postimg.cc/example3.png",
+    "image": "https://i.ibb.co.com/q3mGmsQp/bondi-sands-sunscreen-lotion-spf-50-for-face-fragrance-free-75ml-kbmzjr.avif",
     "category": "Skincare"
   },
   {
@@ -40,7 +40,7 @@
     "rating": 4.5,
     "stock": 22,
     "description": "Handwoven straw hat with a wide brim to keep you cool and shaded.",
-    "image": "https://i.postimg.cc/example4.png",
+    "image": "https://i.ibb.co.com/fzHnj94P/94b1f93eec4077d93e6d6575a59613ec-jpg-960x960q80-jpg.webp",
     "category": "Accessories"
   },
   {
@@ -51,7 +51,7 @@
     "rating": 4.4,
     "stock": 30,
     "description": "Comfortable quick-dry shorts ideal for swimming, surfing and beach walks.",
-    "image": "https://i.postimg.cc/example5.png",
+    "image": "https://i.ibb.co.com/RkyQkSMZ/images.jpg",
     "category": "Clothing"
   },
   {
@@ -62,7 +62,7 @@
     "rating": 4.7,
     "stock": 50,
     "description": "Cooling aloe vera gel that soothes sunburn and keeps skin hydrated.",
-    "image": "https://i.postimg.cc/example6.png",
+    "image": "https://i.ibb.co.com/C5TdbtZV/images-1.jpg",
     "category": "Skincare"
   },
   {
@@ -73,7 +73,7 @@
     "rating": 4.6,
     "stock": 25,
     "description": "Soft, sand-resistant and fast-drying towel with a vibrant summer print.",
-    "image": "https://i.postimg.cc/example7.png",
+    "image": "https://i.ibb.co.com/PshTkT99/images-2.jpg",
     "category": "Beach"
   },
   {
@@ -84,18 +84,18 @@
     "rating": 4.3,
     "stock": 45,
     "description": "Lightweight and cushioned flip flops for all-day summer comfort.",
-    "image": "https://i.postimg.cc/example8.png",
+    "image": "https://i.ibb.co.com/23s77QrZ/images-3.jpg",
     "category": "Footwear"
   },
   {
     "id": 9,
-    "name": "Waterproof Beach Bag",
+    "name": "Beach Ball",
     "brand": "TideTote",
     "price": 26,
     "rating": 4.5,
     "stock": 15,
     "description": "Spacious waterproof tote that keeps your essentials dry at the beach or pool.",
-    "image": "https://i.postimg.cc/example9.png",
+    "image": "https://i.ibb.co.com/Xfhjtks1/images-5.jpg",
     "category": "Beach"
   },
   {
@@ -106,18 +106,18 @@
     "rating": 4.9,
     "stock": 20,
     "description": "Brightening serum that protects skin from sun damage and gives a fresh summer glow.",
-    "image": "https://i.postimg.cc/example10.png",
+    "image": "https://i.ibb.co.com/1YDrGMZb/images-4.jpg",
     "category": "Skincare"
   },
   {
     "id": 11,
-    "name": "Linen Short Sleeve Shirt",
+    "name": "Beach T-shirt",
     "brand": "BreezeFit",
     "price": 28,
     "rating": 4.4,
     "stock": 12,
     "description": "Breathable linen shirt with a relaxed fit, great for casual summer evenings.",
-    "image": "https://i.postimg.cc/example11.png",
+    "image": "https://i.ibb.co.com/mC65NhLK/ef20ba0b559267148826fd097da4e27c-jpg-960x960q80-jpg.webp",
     "category": "Clothing"
   },
   {
@@ -128,7 +128,7 @@
     "rating": 4.2,
     "stock": 0,
     "description": "Giant inflatable flamingo float with durable material for fun pool days.",
-    "image": "https://i.postimg.cc/example12.png",
+    "image": "https://i.ibb.co.com/gZbvMbM6/images-6.jpg",
     "category": "Beach"
   }
 ]

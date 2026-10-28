@@ -4,7 +4,7 @@ import Image from "next/image";
 const FooterPage = () => {
   return (
     <footer className="footer sm:footer-horizontal bg-[#ddd7d2] text-base-content container mx-auto p-10 mt-9 ">
-      <aside>
+      <aside className="flex flex-col justify-center items-center mx-auto">
         <Image
           src={logo}
           width={500}
@@ -13,9 +13,9 @@ const FooterPage = () => {
           className="w-60 h-auto"
         />
         <p className="text-center">
-          ACME Industries Ltd.
+          Created by
           <br />
-          Providing reliable tech since 1992
+          Yashin Alam Shihab
         </p>
       </aside>
       <nav>
