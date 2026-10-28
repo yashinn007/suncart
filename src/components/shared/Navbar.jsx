@@ -63,7 +63,11 @@ const Navbar = () => {
           <ul className="menu menu-horizontal gap-2 px-1">{links}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Login</a>
+          <Link href={"/login"}>
+            <button className="btn border-2 bg-[#ae9077] text-white">
+              Login
+            </button>
+          </Link>
         </div>
       </div>
     </div>
