@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Accessories",
+    "slug": "accessories",
+    "description": "Sunglasses, hats and stylish add-ons to complete your summer look.",
+    "image": "https://i.postimg.cc/category1.png",
+    "icon": "🕶️",
+    "productCount": 2
+  },
+  {
+    "id": 2,
+    "name": "Clothing",
+    "slug": "clothing",
+    "description": "Light, breathable outfits made for hot and sunny days.",
+    "image": "https://i.postimg.cc/category2.png",
+    "icon": "👗",
+    "productCount": 3
+  },
+  {
+    "id": 3,
+    "name": "Skincare",
+    "slug": "skincare",
+    "description": "Sunscreens, serums and soothing gels to protect and refresh your skin.",
+    "image": "https://i.postimg.cc/category3.png",
+    "icon": "🧴",
+    "productCount": 3
+  },
+  {
+    "id": 4,
+    "name": "Beach",
+    "slug": "beach",
+    "description": "Towels, bags and pool fun essentials for a perfect beach day.",
+    "image": "https://i.postimg.cc/category4.png",
+    "icon": "🏖️",
+    "productCount": 3
+  },
+  {
+    "id": 5,
+    "name": "Footwear",
+    "slug": "footwear",
+    "description": "Comfortable sandals and flip flops for all-day summer walks.",
+    "image": "https://i.postimg.cc/category5.png",
+    "icon": "👟",
+    "productCount": 1
+  }
+]

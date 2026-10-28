@@ -2,6 +2,7 @@ import { Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/shared/Navbar";
 import Script from "next/script";
+import FooterPage from "@/components/shared/footer";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -47,6 +48,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
         {children}
+        <FooterPage></FooterPage>
       </body>
     </html>
   );

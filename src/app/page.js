@@ -1,3 +1,4 @@
+import HotDealsSection from "@/components/HomePage/HotDealsSection";
 import heroImg from "@/photo/hero.png";
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
           backgroundRepeat: "no-repeat",
         }}
       ></div>
+      <HotDealsSection></HotDealsSection>
     </div>
   );
 }
