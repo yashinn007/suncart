@@ -18,7 +18,7 @@ const ProductsPage = async ({ searchParams }) => {
 
   return (
     <div className="py-9 px-3 lg:px-0 container mx-auto ">
-      <h2 className="text-xl lg:text-3xl font-bold text-gray-600 mb-7 text-center">
+      <h2 className="text-xl lg:text-3xl font-bold text-gray-600 mb-10 text-center">
         All Products
       </h2>
       <Category></Category>

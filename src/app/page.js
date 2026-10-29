@@ -1,6 +1,7 @@
 import HotDealsSection from "@/components/HomePage/HotDealsSection";
 import heroImg from "@/photo/hero.png";
-import BeachAnimation from "@/components/HomePage/BeachAnimation";
+import SummerCare from "@/components/HomePage/SummerCare";
+import Brands from "@/components/HomePage/Brands";
 
 export default function Home() {
   return (
@@ -15,7 +16,8 @@ export default function Home() {
         }}
       ></div>
       <HotDealsSection></HotDealsSection>
-      <BeachAnimation></BeachAnimation>
+      <SummerCare></SummerCare>
+      <Brands></Brands>
     </div>
   );
 }

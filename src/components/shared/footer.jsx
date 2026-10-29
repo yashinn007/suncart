@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const FooterPage = () => {
   return (
-    <footer className="grid grid-cols-2 md:grid-cols-4 container mx-auto py-12 bg-[#ae9077] space-y-10 md:space-y-0">
+    <footer className="grid grid-cols-2 md:grid-cols-4 container mx-auto py-12 bg-[#dec5b0] space-y-10 md:space-y-0">
       <div className="flex flex-col justify-center items-center mx-auto col-span-2 md:col-span-1 ">
         <Image
           src={logo}
