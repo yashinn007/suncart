@@ -1,9 +1,18 @@
+"use client";
+
 import Image from "next/image";
 import logo from "@/photo/logo.png";
 import Link from "next/link";
 import NavLinks from "./NavLinks";
+import { authClient } from "@/lib/auth-client";
+import userImg from "@/photo/userImg.webp";
 
 const Navbar = () => {
+  const { data: session, isPending } = authClient.useSession();
+  const user = session?.user;
+
+  console.log(user);
+
   const links = (
     <>
       <li>
@@ -62,13 +71,44 @@ const Navbar = () => {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-2 px-1">{links}</ul>
         </div>
-        <div className="navbar-end">
-          <Link href={"/login"}>
-            <button className="btn border-2 bg-[#ae9077] text-white">
-              Login
+        {isPending ? (
+          <div className="navbar-end pr-7">
+            <span className="loading loading-spinner loading-sm"></span>
+          </div>
+        ) : user ? (
+          <div className="navbar-end gap-3">
+            <h2 className="hidden md:flex">Hello, {user?.name}</h2>
+            <div className="avatar">
+              <div className="ring-offset-base-100 w-5 md:w-8 rounded-full ring-2 ring-offset-2">
+                <Image
+                  alt={user?.name}
+                  src={user?.image || userImg}
+                  height={400}
+                  width={400}
+                />
+              </div>
+            </div>
+            <button
+              onClick={async () => await authClient.signOut()}
+              className="btn btn-sm md:btn-md  border-2 bg-[#ae9077] text-white rounded-lg"
+            >
+              Logout
             </button>
-          </Link>
-        </div>
+          </div>
+        ) : (
+          <div className="navbar-end gap-0.5 md:gap-1">
+            <Link href={"/login"}>
+              <button className="btn  btn-sm md:btn-md  border-2 bg-[#665547] text-white rounded-lg ">
+                Login
+              </button>
+            </Link>
+            <Link href={"/signin"}>
+              <button className="btn  btn-sm md:btn-md  border-2 bg-[#ae9077] text-white rounded-lg">
+                Signup
+              </button>
+            </Link>
+          </div>
+        )}
       </div>
     </div>
   );
