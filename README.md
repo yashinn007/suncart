@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<table>
+  <tr>
+    <td>
+    <img width="100%" alt="image" src="https://github.com/user-attachments/assets/036eed4c-9cf7-4bf8-b385-32faf0987e93" />
+    </td>
+    <td>
+      <img width="100%" alt="image" src="https://github.com/user-attachments/assets/e2f34023-64ab-4758-afe7-a07ba4dcb6a6" />
+    </td>
+  </tr>
+  <tr>
+    <td>
+    <img width="100%" alt="image" src="https://github.com/user-attachments/assets/2c48b307-7b18-4f58-89d8-0db93a9661d2" />
+    </td>
+    <td>
+      <img width="100%" alt="image" src="https://github.com/user-attachments/assets/45be9d0d-1359-4701-a464-a3a18580e6d1" />
+    </td>
+  </tr>
+</table>
+<h1>Project name: Sun Cart</h1>
+<p> Description: A modern summer eCommerce platform where users can explore and purchase seasonal products like sunglasses, summer outfits, skincare, beach accessories, and more. Users can view details & user-profile  after authentication.</p>
 
-## Getting Started
+<h2>Technologies:</h2>
+1. Next.js,<br/>
+2. Tailwind CSS,<br/>
+3. Better Auth,<br/>
+4. React Hook form,<br/>
+5. MongoDB,<br/>
+6. Daisy UI
 
-First, run the development server:
+<h2>Features:</h2>
+1. Users can see product details after authentication,<br/>
+2. Applied products filter,<br/>
+3. User profile can be Edite,<br/>
+4. Responsive UI<br/>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+<h2>Live Link:</h2>
+https://suncart-three.vercel.app/
