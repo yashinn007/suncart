@@ -5,7 +5,7 @@ import Link from "next/link";
 // import { Router } from "next/router";
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
-import { FaEye, FaEyeSlash } from "react-icons/fa";
+import { FaEye, FaEyeSlash, FaGoogle } from "react-icons/fa";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 
@@ -37,8 +37,14 @@ const SignupPage = () => {
     }
     if (res) {
       toast.success("Signup Success");
-      window.setTimeout(() => router.push("/"), 500);
+      window.setTimeout(() => router.push("/"), 300);
     }
+  };
+
+  const handelGoogleSignIn = async () => {
+    const data = await authClient.signIn.social({
+      provider: "google",
+    });
   };
 
   return (
@@ -112,6 +118,13 @@ const SignupPage = () => {
 
           <button className="btn w-full bg-[#ae9077] text-white">Login</button>
         </form>
+        <p className="text-center text-gray-500 my-4 font-semibold">or</p>
+        <button
+          onClick={handelGoogleSignIn}
+          className="btn w-full border-2 border-blue-500 bg-blue-200"
+        >
+          <FaGoogle className="text-blue-500 text-2xl"></FaGoogle>
+        </button>
         <p className="text-center mt-3 text-gray-500">
           Already have an account?{" "}
           <Link href={"/login"} className="text-blue-500">

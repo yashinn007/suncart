@@ -50,7 +50,7 @@ export default function RootLayout({ children }) {
       <body className="min-h-full flex flex-col">
         <Navbar></Navbar>
         {children}
-        <ToastContainer />
+        <ToastContainer autoClose={3000} />
         <FooterPage></FooterPage>
       </body>
     </html>
