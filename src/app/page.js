@@ -1,5 +1,6 @@
 import HotDealsSection from "@/components/HomePage/HotDealsSection";
 import heroImg from "@/photo/hero.png";
+import BeachAnimation from "@/components/HomePage/BeachAnimation";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         }}
       ></div>
       <HotDealsSection></HotDealsSection>
+      <BeachAnimation></BeachAnimation>
     </div>
   );
 }
