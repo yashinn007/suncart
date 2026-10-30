@@ -6,7 +6,7 @@ const HotDealsSection = async () => {
   //console.log("products", products);
 
   return (
-    <div className="py-9 px-3 lg:px-0">
+    <div className="py-8 px-3 lg:px-0">
       <h2 className="text-xl lg:text-3xl font-bold text-gray-600 my-10 text-center">
         Hot Deals 🔥
       </h2>

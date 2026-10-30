@@ -1,14 +1,15 @@
 import React from "react";
+import LottieSection from "./LottieSection";
 
 const SummerCare = () => {
   return (
-    <div className="my-20">
+    <div className="my-20 px-3 md:px-0">
       <h2 className="text-xl lg:text-3xl font-bold text-gray-600 mb-15 text-center">
         Summer Care Tips
       </h2>
       {/* container */}
-      <div className="grid grid-cols-2 gap-5">
-        <div>
+      <div className="grid grid-cols-1  md:grid-cols-2 gap-5">
+        <div className="order-2 md:order-1">
           <div className="collapse collapse-arrow bg-base-100 border border-base-300">
             <input type="radio" name="my-accordion-2" defaultChecked />
             <div className="collapse-title font-semibold">
@@ -64,7 +65,9 @@ const SummerCare = () => {
           </div>
         </div>
         {/* section-2 */}
-        <div>somethig</div>
+        <div className="flex justify-center items-center order-1 md:order-2">
+          <LottieSection></LottieSection>
+        </div>
       </div>
     </div>
   );
