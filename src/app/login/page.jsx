@@ -47,7 +47,7 @@ const LoginPage = () => {
 
   return (
     <div className="container mx-auto min-h-[85vh] flex justify-center items-center">
-      <div className="p-8 rounded-xl bg-[#e4e4e4]">
+      <div className="px-4 md:px-8 py-8 rounded-xl bg-[#e4e4e4] mx-auto">
         <h2 className="text-center text-2xl font-semibold mb-7">
           Login your account
         </h2>
@@ -56,7 +56,7 @@ const LoginPage = () => {
             <legend className="fieldset-legend">Email</legend>
             <input
               type="email"
-              className="input w-sm"
+              className="input w-xs md:sm"
               placeholder="Type here email"
               {...register("email", { required: "Email is required" })}
             />
@@ -70,7 +70,7 @@ const LoginPage = () => {
             <legend className="fieldset-legend">Password</legend>
             <input
               type={isShowPassword ? "text" : "password"}
-              className="input w-sm relative"
+              className="input  w-xs md:sm relative"
               placeholder="Type here password"
               {...register("password", { required: "Email is required" })}
             />
